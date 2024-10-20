@@ -1,4 +1,4 @@
-import workflow from '../assets/images/Workflow.png'
+import workflow from '../assets/images/workflow.png'
 
 const SnacksPage = () => {
     return (
