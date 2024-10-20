@@ -1,0 +1,53 @@
+.content {
+    margin: 60px auto;
+    max-width: 850px;
+    width: 100%;
+}
+
+.content p {
+    background: linear-gradient(0deg, transparent 4%, #000000 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.content p::before {
+    content: " ";
+    display: inline-block;
+    width: 100%;
+    background-color: #000000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+.content {
+    margin: 60px auto;
+    max-width: 850px;
+    width: 100%;
+}
+
+.content p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.content p strong {
+    font-weight: 600;
+}
+
+.content h6 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    color: #FF7010;
+    cursor: pointer;
+}

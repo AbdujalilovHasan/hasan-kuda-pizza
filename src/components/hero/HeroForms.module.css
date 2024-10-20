@@ -1,0 +1,56 @@
+.form {
+    margin-top: 30px;
+    width: 100%;
+    background: #fff;
+    padding: 16px 32px;
+    border: 1px solid #F0F0F0;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+
+.row p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.input {
+    display: flex;
+    padding: 14px 12px;
+    border: 1px solid #F0F0F0
+}
+
+.input input {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    padding-left: 6px;
+    outline: none;
+    border: none;
+    width: 713px;
+}
+
+.btn {
+    border-radius: 4px;
+    background: #FF7010;
+    padding: 13px 32px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.row i {
+    color: #FF7010;
+} 

@@ -1,0 +1,28 @@
+.row {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+    width: 1250px;
+}
+
+.card {
+    position: relative;
+}
+
+.card-title {
+    width: 200px;
+    position: absolute;
+    top: 230px;
+    left: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: #fff;
+}
+
+.card-img img {
+    width: 296px;
+    height: 313px;
+}
