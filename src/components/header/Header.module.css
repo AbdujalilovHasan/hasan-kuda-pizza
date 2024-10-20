@@ -196,3 +196,24 @@ a .logo-text {
 a {
     text-decoration: none;
 }
+
+
+@media (max-width: 1025px) {
+    .time-work {
+        display: none;
+    }
+
+    .box .content {
+        display: none;
+    }
+    
+    .nav-bottom.scrolled {
+        padding: 20px 0px;
+    }
+}
+
+@media (max-width: 426px) {
+    .time {
+        display: none;
+    }
+}

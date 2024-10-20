@@ -1,9 +1,10 @@
 .row {
+    width: 100%;
+    max-width: 1250px;
     margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
     gap: 22px;
-    width: 1250px;
 }
 
 .card {
@@ -25,4 +26,22 @@
 .card-img img {
     width: 296px;
     height: 313px;
+}
+
+@media (max-width: 1025px) {
+    .row {
+        width: 100%;
+        max-width: 1025px;
+        overflow-x: auto;
+        flex-wrap: nowrap;
+    }
+}
+
+@media (max-width: 769px) {
+    .row {
+        width: 100%;
+        max-width: 769px;
+        overflow-x: auto;
+        flex-wrap: nowrap;
+    }
 }

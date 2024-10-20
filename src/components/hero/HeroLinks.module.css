@@ -33,3 +33,12 @@
 .row a {
     text-decoration: none;
 }
+
+@media (max-width: 1025px) {
+    .row {
+        width: 100%;
+        max-width: 1025px;
+        overflow-x: auto;
+        flex-wrap: nowrap;
+    }
+}

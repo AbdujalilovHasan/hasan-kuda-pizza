@@ -34,7 +34,8 @@
     padding-left: 6px;
     outline: none;
     border: none;
-    width: 713px;
+    width: 100%;
+    max-width: 713px;
 }
 
 .btn {
@@ -54,3 +55,19 @@
 .row i {
     color: #FF7010;
 } 
+
+@media (max-width: 1025px) {
+    .row {
+        gap: 48px;
+    }
+
+    .row p {
+        display: none;
+    }
+}
+
+@media (max-width: 769px) {
+    .row {
+        gap: 48px;
+    }
+}
